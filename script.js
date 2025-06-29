@@ -10,6 +10,7 @@ function buttonClicked(){
     heading.style.color = "black";
     heading.style.borderRadius = "10px";
     document.body.style.backgroundImage = "linear-gradient(90deg, red, orange, yellow, green, blue, indigo, violet)";
+    document.body.removeChild(mybtn);
 }
 
 
