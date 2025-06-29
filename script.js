@@ -4,7 +4,14 @@ const moveDistance = 60;
 
 function buttonClicked(){
     alert("You are GAY!!!");
+    document.body.style.backgroundImage = "linear-gradient(90deg, red, orange, yellow, green, blue, indigo, violet)";
+    let heading = document.createElement("H1");
+    heading.innerText = "You are GAY!!!";
+    document.body.appendChild(heading);
+    heading.style.color = "black";
+    heading.style.borderRadius = "10px";
 }
+
 
 function moveButtonAway(e) {
     const rect = mybtn.getBoundingClientRect();
