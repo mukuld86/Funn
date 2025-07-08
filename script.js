@@ -3,7 +3,7 @@ const buffer = 50;
 const moveDistance = 60;
 
 function buttonClicked(){
-    alert("You are GAY!!!");
+    alert("Why are you GAY!!!");
     let heading = document.createElement("H1");
     heading.innerText = "You are GAY!!!";
     document.body.appendChild(heading);
